@@ -6,6 +6,6 @@ const interface = readline.createInterface({
 
 interface.question("Enter your no1:", (num1) => {
     interface.question("Enter your no2:", (num2) => {
-        console.log(num1+num2)
+        console.log(Number(num1)+Number(num2))
     })
 })
