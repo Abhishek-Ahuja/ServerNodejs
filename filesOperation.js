@@ -9,7 +9,7 @@ console.log(buffer);
 try{
 fs.writeFileSync("order.txt", "i: 1, type: image, quantiiy: 2")
 }catch(err){
-    console.log(err.message)
+    console.log("Error",err.message)
 }
 //To append data in order.txt
 try{
